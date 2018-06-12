@@ -227,7 +227,7 @@ header, .column{
   color: #1d9b6c;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 200px) {
   .masthead {
     height: 100%;
     padding: 0;
@@ -282,10 +282,6 @@ header, .column{
 #contact .left-col{
   background-color: #42DCA3;
   color: white;
-}
-
-.right-col{
-  text-align: justify;
 }
 
 #projects .nav-link{
