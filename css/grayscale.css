@@ -279,6 +279,10 @@ header, .column{
   background-color: #42DCA3;
 }
 
+#about .right-col{
+  overflow-y: auto;
+}
+
 #contact .left-col{
   background-color: #42DCA3;
   color: white;
@@ -291,7 +295,16 @@ header, .column{
 #projects .right-col{
   background-color: #42DCA3;
   color: white;
+  overflow-y: auto;
+  min-height: 100%;
 }
+
+#cgames{
+  height: 100%;
+}
+
+
+
 
 .text-container{
   padding-top: 3%;
@@ -299,8 +312,10 @@ header, .column{
   padding-right: 5%;
   padding-left: 5%;
   margin: 5%;
-  overflow: auto
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .pad20 {
   font-size: .90em;
   font-weight: 400;
@@ -308,7 +323,6 @@ header, .column{
   margin: 0;
 }
 .h6 , .h3{
-  text-align: justify;
   padding: 2%;
   margin: 0;
 }
