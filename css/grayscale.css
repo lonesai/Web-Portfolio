@@ -60,6 +60,17 @@ a:focus, a:hover {
 
 }
 
+#sai-lone span {
+  border-right: .1em solid;
+  animation: caret 700ms steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
